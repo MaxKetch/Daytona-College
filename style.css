@@ -1,0 +1,132 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0; 
+    margin: 0; 
+    width: 100%; height: 100%; min-width: 1000px; min-height: 1000px; 
+}
+
+.daytonalogo{
+    width:300px;
+    height:85px;
+}
+header{
+    width: 100%;
+    display:flex;
+}
+ul{
+    position:absolute;
+    width:1200px;
+    list-style:none;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    font-size:18px;
+text-shadow: rgba(0,0,0,.2) 2px 6px 5px,rgba(255,255,255,.4) 0 -4px 30px;
+}
+nav{
+    width:100%;
+}
+.gray-banner{
+    position:absolute;
+    z-index: -1;
+    left:0px;
+    top:-113px;
+}
+.blue-banner{
+    position:absolute;
+    z-index: -1;
+    left:350px;
+    top:-113px;
+}
+.myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+    position: absolute;
+    right:250px;
+    top:50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/* Slideshow container */
+.slideshow-container {
+    position:absolute;
+    left:20px;
+    top:50px;
+    align-items: center;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(94, 137, 255);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #3a3a3a;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 0.5;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .01} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
